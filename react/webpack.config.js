@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ImageminWebpackPlugin = require("imagemin-webpack-plugin").default;
 
 module.exports = {
+  entry: "./src/index.js",
   mode: "development",
   plugins: [
     new MiniCssExtractPlugin({

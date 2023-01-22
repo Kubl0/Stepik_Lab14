@@ -1,11 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css";
+import ReactDOM from "react-dom";
+import "./style.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div>
+      <h1>Webpack test</h1>
+      <br />
+      <img src="../images/volvo.jpg" alt="volvo" />
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
