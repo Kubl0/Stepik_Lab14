@@ -1,7 +1,9 @@
+import React from "react";
+
 function App() {
   return (
     <div className="App">
-      <h1>React TEST</h1>
+      <h1>Webpack test</h1>
     </div>
   );
 }
